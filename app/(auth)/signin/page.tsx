@@ -55,14 +55,14 @@ export default function AuthenticationPage() {
           <p className="px-8 text-center text-sm text-muted-foreground">
             Genom att klicka på fortsätt godkänner du våra{" "}
             <Link
-              href="/terms"
+              href="#"
               className="underline underline-offset-4 hover:text-primary"
             >
               användarvillkor
             </Link>{" "}
             och{" "}
             <Link
-              href="/privacy"
+              href="#"
               className="underline underline-offset-4 hover:text-primary"
             >
               integritetspolicy

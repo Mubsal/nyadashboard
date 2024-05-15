@@ -1,21 +1,25 @@
-import { FC, ReactNode } from "react";
-import { Button } from "@/components/ui/button";
+"use client";
+
+import { useSearchParams } from "next/navigation";
 import { signIn } from "next-auth/react";
+import { Button } from "./ui/button";
+import { Icons } from "./icons";
 
-interface GoogleSignInButtonProps {
-    children?: ReactNode;
-}
+export default function GoogleSignInButton() {
+  const searchParams = useSearchParams();
+  const callbackUrl = searchParams.get("callbackUrl");
 
-const GoogleSignInButton: FC<GoogleSignInButtonProps> = ({ children }) => {
- const signInWithGoogle = () => signIn("google", {callbackUrl: "https://nyadashboard.vercel.app/dashboard"});
-    return (
+  return (
     <Button
-      onClick={() => {signInWithGoogle()}}
-      
-      className="w-full">
-      {children}
+      className="w-full"
+      variant="outline"
+      type="button"
+      onClick={() =>
+        signIn("google", { callbackUrl: callbackUrl ?? "/dashboard" })
+      }
+    >
+      <Icons.moon className="mr-2 h-4 w-4" />
+      Continue with Google
     </Button>
   );
-};
-
-export default GoogleSignInButton;
+}
