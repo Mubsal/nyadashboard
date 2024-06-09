@@ -20,11 +20,9 @@ function Page() {
             />
           </div>
 
-          {/* Image placeholder */}
+          {/* Image added from external URL */}
           <div className="flex justify-center">
-            <div className="bg-gray-200 w-48 h-48 flex items-center justify-center mb-4">
-              <span className="text-gray-500">Bildplats hållare</span>
-            </div>
+            <img src="https://framjaspec.se/____impro/1/onewebmedia/Angelica%20Danielsson%20soffa.jpg" alt="Angelica Danielsson sitting on a sofa" className="w-48 h-48 mb-4" />
           </div>
 
           {/* Text and booking button */}
@@ -39,10 +37,10 @@ function Page() {
               <strong>Vid frågor kontakta oss på boka@formd.se</strong>
             </ol>
             <a href="https://formdbetavideo.vercel.app/" target="_blank" rel="noopener noreferrer">
-    <button className="mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      Boka Samtal
-    </button>
-    </a>
+              <button className="mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                Boka Samtal
+              </button>
+            </a>
           </div>
         </div>
       </ScrollArea>
