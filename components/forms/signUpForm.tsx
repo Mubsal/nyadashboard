@@ -90,7 +90,7 @@ const SignUpForm = () => {
             name='firstName'
             render={({ field }) => (
               <FormItem>
-                <FormLabel>First Name</FormLabel>
+                <FormLabel>Förnamn</FormLabel>
                 <FormControl>
                   <Input placeholder='John' {...field} />
                 </FormControl>
@@ -103,7 +103,7 @@ const SignUpForm = () => {
             name='lastName'
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Last Name</FormLabel>
+                <FormLabel>Efternamn</FormLabel>
                 <FormControl>
                   <Input placeholder='Doe' {...field} />
                 </FormControl>
@@ -129,7 +129,7 @@ const SignUpForm = () => {
             name='password'
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Password</FormLabel>
+                <FormLabel>Lösenord</FormLabel>
                 <FormControl>
                   <Input
                     type='password'
@@ -146,7 +146,7 @@ const SignUpForm = () => {
             name='confirmPassword'
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Re-Enter your password</FormLabel>
+                <FormLabel>Lösenord</FormLabel>
                 <FormControl>
                   <Input
                     placeholder='Re-Enter your password'
@@ -160,17 +160,17 @@ const SignUpForm = () => {
           />
         </div>
         <Button className='w-full mt-6' type='submit'>
-          Sign up
+          Bli medlem
         </Button>
       </form>
       <div className='mx-auto my-4 flex w-full items-center justify-evenly before:mr-4 before:block before:h-px before:flex-grow before:bg-stone-400 after:ml-4 after:block after:h-px after:flex-grow after:bg-stone-400'>
         or
       </div>
-      <GoogleSignInButton>Sign up with Google</GoogleSignInButton>
+      <GoogleSignInButton>Bli medlem med Google</GoogleSignInButton>
       <p className='text-center text-sm text-gray-600 mt-2'>
-        If you have an account, please {""}
+        Om du har ett konto {""}
         <Link className='text-blue-500 hover:underline' href="/signin">
-          Sign in
+        Logga in
         </Link>
       </p>
     </Form>
