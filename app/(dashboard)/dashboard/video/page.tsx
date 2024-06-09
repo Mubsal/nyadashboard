@@ -33,9 +33,10 @@ function Page() {
             <p>Här är vad du behöver göra:</p>
             <ol className="list-decimal list-inside mb-4">
               <li>Klicka på knappen nedan för att fortsätta till en säker inloggningssida.</li>
-              <p>Vi använder förstärkta säkerhetsåtgärder för videosamtal.</p>
+              <p>Du behöver logga in igen med samma inloggning. Vi använder förstärkta säkerhetsåtgärder för videosamtal.</p>
               <li>Efter inloggning väljer du 'Boka tid'. Du kommer då få en länk.</li>
               <li>Använd denna länk för att ansluta till mötet. Din specialpedagog kommer att ansluta kort därefter.</li>
+              <strong>Vid frågor kontakta oss på boka@formd.se</strong>
             </ol>
             <a href="https://formdbetavideo.vercel.app/" target="_blank" rel="noopener noreferrer">
     <button className="mt-2 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
