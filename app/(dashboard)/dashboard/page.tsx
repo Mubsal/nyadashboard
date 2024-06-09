@@ -42,7 +42,7 @@ export default function page() {
             
           <div>
              <p style={{fontSize: 'large'}}>Studieplanering</p>
-             <p style={{fontSize: 'small'}}>Få hjälp med att planera och organisera dina studier, samt förbättra din studieteknik för att maximera din inlärningseffektivite</p>
+             <p style={{fontSize: 'small'}}>Få hjälp med att planera och organisera dina studier.</p>
            </div>
 </Link>
 </Button>
@@ -51,7 +51,7 @@ export default function page() {
             
             <div>
                <p style={{fontSize: 'large'}}>Språkhjälp</p>
-               <p style={{fontSize: 'small'}}>Få stöd med att förbättra dina språkkunskaper, inklusive grammatik, läsning och skrivning</p>
+               <p style={{fontSize: 'small'}}>Få stöd med att förbättra dina språkkunskaper.</p>
              </div>
 </Link>
   </Button>
@@ -61,7 +61,7 @@ export default function page() {
             
             <div>
                <p style={{fontSize: 'large'}}>Uppsatsskrivning</p>
-               <p style={{fontSize: 'small'}}>Få hjälp med att strukturera, skriva och korrekturläsa dina uppsatser och andra skriftliga arbeten</p>
+               <p style={{fontSize: 'small'}}>Få hjälp med att strukturera, skriva och korrekturläsa text.</p>
              </div>
 </Link>
   </Button>
@@ -70,7 +70,7 @@ export default function page() {
             
             <div>
                <p style={{fontSize: 'large'}}>Matematikhjälp</p>
-               <p style={{fontSize: 'small'}}>Få stöd med att förstå och lösa matematiska problem, från grundläggande till avancerad nivå</p>
+               <p style={{fontSize: 'small'}}>Få stöd med att förstå och lösa matematiska problem.</p>
              </div>
   </Link>
   </Button>
@@ -78,7 +78,7 @@ export default function page() {
   <Link href="/dashboard/chatgpt">           
       <div>
         <p style={{fontSize: 'large'}}>Individuell support</p>
-        <p style={{fontSize: 'small'}}>Behöver du hjälp med något annat? Berätta för oss så hittar vi en lösning som passar dig</p>
+        <p style={{fontSize: 'small'}}>Behöver du hjälp med något annat? </p>
       </div>
     
   </Link>
