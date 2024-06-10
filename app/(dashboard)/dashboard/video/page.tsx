@@ -16,13 +16,13 @@ function Page() {
           <div className="flex flex-col items-center">
             <Heading 
               title="Boka tid" 
-              description="Möt vår erfarna specialpedagog Angelica, som med sina 17 års erfarenhet i skolvärlden, är dedikerad till att ge elever med diagnoser möjligheten till en likvärdig skolgång. Boka en tid för att få skräddarsytt stöd och förbättra din studieteknik." 
+              description="Möt vår erfarna specialpedagog, som med sina 17 års erfarenhet i skolvärlden, är dedikerad till att ge elever med diagnoser möjligheten till en likvärdig skolgång. Boka en tid för att få skräddarsytt stöd och förbättra din studieteknik." 
             />
           </div>
 
           {/* Image added from external URL */}
           <div className="flex justify-center">
-            <img src="https://framjaspec.se/____impro/1/onewebmedia/Angelica%20Danielsson%20soffa.jpg" alt="Angelica Danielsson sitting on a sofa" className="w-48 h-48 mb-4" />
+            <img src="https://framjaspec.se/____impro/1/onewebmedia/Angelica%20Danielsson%20soffa.jpg" alt="Angelica Danielsson sitting on a sofa" className="w-45 h-48 mb-4" />
           </div>
 
           {/* Text and booking button */}
