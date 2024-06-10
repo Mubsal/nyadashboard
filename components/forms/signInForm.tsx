@@ -91,11 +91,11 @@ const onSubmit = async (values: z.infer<typeof formSchema>) => {
             name='password'
             render={({ field }) => (
               <FormItem>
-                <FormLabel>Losenord</FormLabel>
+                <FormLabel>Lösenord</FormLabel>
                 <FormControl>
                   <Input
                     type='password'
-                    placeholder='Skriv in ditt losenord'
+                    placeholder='Skriv in ditt lösenord'
                     {...field}
                   />
                 </FormControl>

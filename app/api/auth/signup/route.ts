@@ -41,12 +41,12 @@ import * as z from "zod";
 //Define a schema for input validation
 
 const UserSchema  = z.object({
-  email: z.string().email({ message: "Enter a valid email address" }),
+  email: z.string().email({ message: "Skriv korrekt email" }),
   password:z.string()
-    .min(1, "Password is required")
+    .min(1, "Lösenord krävs")
     .min(8, "Password must be at least 8 characters"),
-    firstName: z.string().min(3, "First name is required").max(100),
-    lastName: z.string().min(3, "Last name is required").max(100)
+    firstName: z.string().min(3, "Förnamn krävs").max(100),
+    lastName: z.string().min(3, "Efternamn krävs").max(100)
 })
 
 
