@@ -18,7 +18,7 @@ export default function ChatComponent() {
             <p className="font-bold text-black dark:text-white mb-2">Skriv här</p>
             <textarea
                 className="w-full h-[150px] p-4 border border-gray-500 rounded-lg shadow-sm focus:outline-none focus:ring focus:border-blue-300 resize-none"
-                placeholder="Jag behöver hjälp att plugga på ekvationstabellen, allt från 1ans till 10ans. Hur ska jag börja för att göra det?"
+                placeholder="Jag behöver hjälp att med studietekniken. Vad behöver jag hjälpa med?"
                 value={input}
                 onChange={handleInputChange}
             />
@@ -34,7 +34,7 @@ export default function ChatComponent() {
                         <div className={`p-4 rounded-lg ${message.role === "assistant" ? 'bg-blue-100 text-black' : 'bg-gray-200 text-black'}`}>
                             {
                                 message.role === "assistant"
-                                    ? <h3 className="text-lg font-semibold">ADHD Coach</h3>
+                                    ? <h3 className="text-lg font-semibold">Formd Coach</h3>
                                     : <h3 className="text-lg font-bold">Du</h3>
                             }
                             {message.content.split("\n").map((currentTextBlock: string, index: number) => (
